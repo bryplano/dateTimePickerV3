@@ -7,6 +7,10 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  pickerOptions = {
+    mode: 'md'
+  };
+
   constructor(public navCtrl: NavController) { }
 
 }

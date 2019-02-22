@@ -12,7 +12,11 @@
 
 <ion-item>
   <ion-label>Date</ion-label>
-  <ion-datetime mode="md"></ion-datetime>
+  <ion-datetime 
+    [pickerOptions]="pickerOptions"
+    cancelText="Cancelar"
+    doneText="Hecho"
+    ></ion-datetime>
 </ion-item>
 
 </ion-content>
